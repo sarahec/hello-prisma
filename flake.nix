@@ -1,5 +1,5 @@
 {
-  description = "A basic flake with a shell";
+  description = "Development setup for workind with Prisma, SQLite, and nx";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
@@ -13,6 +13,7 @@
           pkgs.cypress
           pkgs.nodejs-18_x
           pkgs.nodePackages.prisma
+          pkgs.openssl
           pkgs.sqlite
         ];
         shellHook = ''
