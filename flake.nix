@@ -13,6 +13,7 @@
           pkgs.cypress
           pkgs.nodejs-18_x
           pkgs.nodePackages.prisma
+          pkgs.prisma-engines
           pkgs.openssl
           pkgs.sqlite
         ];
