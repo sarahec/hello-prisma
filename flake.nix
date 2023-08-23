@@ -12,6 +12,7 @@
           pkgs.bashInteractive
           pkgs.cypress
           pkgs.nodejs-18_x
+          pkgs.nodePackages.prisma
           pkgs.sqlite
         ];
         shellHook = ''
